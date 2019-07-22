@@ -1,0 +1,6 @@
+.box{
+  @extend %full;
+  @include borads(8px);
+  background-color:$bgclr;
+
+}
