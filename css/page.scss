@@ -7,6 +7,7 @@ body {
 .mt25 {
     margin-top: 25px;
 }
+
 .mt15 {
     margin-top: 15px;
 }
@@ -305,7 +306,7 @@ body {
             width: 100%;
         }
 
-        &:after{
+        &:after {
             width: 17px;
             height: 17px;
             background-color: #ffffff;
@@ -316,7 +317,7 @@ body {
             right: 8px;
         }
 
-        &:before{
+        &:before {
             width: 13px;
             height: 13px;
             background-color: #00a44d;
@@ -362,9 +363,10 @@ body {
     .profiledet {
         width: calc(100% - 120px);
     }
-    .postconttxt{
-        p{
-            margin-bottom:0;
+
+    .postconttxt {
+        p {
+            margin-bottom: 0;
         }
     }
 
@@ -399,8 +401,8 @@ body {
     .addpplpic {
         float: none;
         margin: 25px auto 10px;
-        width:85px;
-        height:85px;
+        width: 85px;
+        height: 85px;
     }
 
     .addpplnam {
@@ -413,7 +415,7 @@ body {
 .addcmtmsg {
     width: 100%;
     padding: 10px 25px;
-    float:left;
+    float: left;
 
     img {
         width: 35px;
@@ -425,7 +427,7 @@ body {
 
     p {
         float: left;
-        font-size:14px;
+        font-size: 14px;
         line-height: 30px;
     }
 }
@@ -459,7 +461,7 @@ body {
         height: 15px;
         padding: 5px 23px;
 
-        a{
+        a {
             width: 18%;
             height: 4px;
             background-color: rgba(255, 255, 255, 0.52);
@@ -475,9 +477,9 @@ body {
             left: unset;
             overflow: hidden;
 
-            &.active:after{
+            &.active:after {
                 content: '';
-                width:100%;
+                width: 100%;
                 height: 100%;
                 position: absolute;
                 background-color: #ffffff;
@@ -518,6 +520,24 @@ body {
                     color: #ffffff;
                 }
             }
+        }
+    }
+}
+
+
+footer {
+    width: 100%;
+    float: left;
+    padding:30px;
+
+    p {
+        text-align: center;
+        font-size:16px;
+
+        a{
+            font-weight:700;
+            text-decoration:none;
+            color:#000000;
         }
     }
 }

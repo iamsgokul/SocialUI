@@ -1,4 +1,4 @@
-@import url(/Users/gokul-5978/GokulFiles/Me/Social-UI/css/bootstrap-grid.min.css);
+@import url(/Users/gokul-5978/GokulFiles/Me/Social/css/bootstrap-grid.min.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -571,5 +571,22 @@ body {
 .trending ul li .trendintit p {
   font-size: 12px;
   color: #ffffff;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  padding: 30px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+}
+
+footer p a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
